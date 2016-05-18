@@ -70,14 +70,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.tiga : {
 
-                Toast.makeText(MainActivity.this, "Hello :)" , Toast.LENGTH_SHORT).show();
 
                 break;
             }
 
             case R.id.empat : {
 
-                Toast.makeText(MainActivity.this, "Hello :)" , Toast.LENGTH_SHORT).show();
 
                 break;
             }
