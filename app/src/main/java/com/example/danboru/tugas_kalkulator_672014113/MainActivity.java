@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -18,8 +19,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
 
     }
 
@@ -57,26 +56,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.satu : {
 
-
-
+                Toast.makeText(MainActivity.this, "Hello :)" , Toast.LENGTH_SHORT).show();
 
                 break;
             }
 
             case R.id.dua : {
 
+                Toast.makeText(MainActivity.this, "Hello :)" , Toast.LENGTH_SHORT).show();
 
                 break;
             }
 
             case R.id.tiga : {
 
+                Toast.makeText(MainActivity.this, "Hello :)" , Toast.LENGTH_SHORT).show();
 
                 break;
             }
 
             case R.id.empat : {
 
+                Toast.makeText(MainActivity.this, "Hello :)" , Toast.LENGTH_SHORT).show();
 
                 break;
             }
